@@ -1,0 +1,15 @@
+{
+    "python.linting.enable": true,
+    "python.linting.pylintEnabled": true,
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/*pyc": {"when": "$(basename).py"},
+        "**/__pycache__": true,
+        "**/*.pytest_cache":true
+    },
+    "cSpell.words": [
+        "caracteres",
+        "sessionmaker"
+    ],
+    "python.REPL.enableREPLSmartSend": false
+}
