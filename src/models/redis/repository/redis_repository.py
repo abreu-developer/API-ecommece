@@ -1,8 +1,6 @@
 from redis import Redis
 
 
-
-
 class RedisRepository:
     def __init__(self, redis_conn: Redis):
         self.__redis_conn = redis_conn
