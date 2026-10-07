@@ -1,8 +1,5 @@
 from flask import Blueprint, jsonify
 
-
-
-
 product_routes_bp = Blueprint("products_routs", __name__)
 
 @product_routes_bp.route("/products", methods=['POST'])
